@@ -7,4 +7,4 @@ date: January 1, 1999
 
 ## Template Slide
 
-![](img/logo.png)
+![Adding Image](img/logo.png)
