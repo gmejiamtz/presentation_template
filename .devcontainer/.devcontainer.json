@@ -1,0 +1,19 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+    "features": {
+      "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    },
+    "forwardPorts": [6080],
+    "portsAttributes": {
+      "6080": {
+        "label": "desktop"
+      }
+    },
+      "customizations": {
+        "vscode": {
+        "extensions": [
+            "GitHub.vscode-github-actions"
+            ]
+        }
+    }
+}
