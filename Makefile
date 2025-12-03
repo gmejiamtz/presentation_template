@@ -1,3 +1,4 @@
+page: index.html
 index.html: slides.md
 	pandoc -t revealjs -s -o $@ $< \
 	-V revealjs-url=https://unpkg.com/reveal.js \
@@ -6,3 +7,5 @@ index.html: slides.md
 
 clean:
 	rm index.html
+
+.PHONY: page
